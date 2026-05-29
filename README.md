@@ -3,7 +3,7 @@
 This repository contains the CI/CD pipeline and Kubernetes clusters for auto code deployment
 
 ## Before you start
-Mke sure you have instaled *Docker **Desktop** and **Minikube** 
+Make sure you have instaled [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) , [Minikube](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 
 ## Quickstart Guide
 
@@ -22,6 +22,6 @@ Mke sure you have instaled *Docker **Desktop** and **Minikube**
 
 ## Endpoints
 Once port-forwarding is active, you can interact with the API at:
-* **Health Check:** `http://localhost:3000/health`
-* **Root (ConfigMap Check):** `http://localhost:3000/`
-* **Secure Route (Secret Check):** `http://localhost:3000/secure-config`
+* [Health Check](http://localhost:3000/health)
+* [Root (ConfigMap Check)](http://localhost:3000/)
+* [Secure Route (Secret Check)](http://localhost:3000/secure-config)
